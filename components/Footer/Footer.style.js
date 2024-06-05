@@ -5,6 +5,9 @@ export const s = StyleSheet.create({
     flex: 1,
     flexDirection: "row",
     justifyContent: "space-around",
-    alignItems: "center"
+    alignItems: "center",
   },
+  menuItem: {
+    color: "#F8F8F8"
+  }
 });

@@ -17,6 +17,5 @@ export const s = StyleSheet.create({
     },
     footer: {
         flex: .75,
-        backgroundColor: "blue"
     },
 });
