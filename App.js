@@ -7,9 +7,22 @@ export default function App() {
     <>
       <SafeAreaProvider>
         <SafeAreaView style={s.app}>
-          <View>
+          <View style={s.header}>
             <Text>
-              Battle Bets
+              Header
+            </Text>
+          </View>
+          <View style={s.body}>
+            <Text>
+              Options
+            </Text>
+            <Text>
+              Bet Slip
+            </Text>
+          </View>
+          <View style={s.footer}>
+            <Text>
+              Footer
             </Text>
           </View>
         </SafeAreaView>

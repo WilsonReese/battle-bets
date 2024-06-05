@@ -5,6 +5,17 @@ export const s = StyleSheet.create({
         flex: 1,
         backgroundColor: "white",
         justifyContent: "space-evenly",
-        padding: 16,
+    },
+    header: {
+        flex: .75,
+        backgroundColor: "red"
+    },
+    body: {
+        flex: 12,
+        backgroundColor: "green"
+    },
+    footer: {
+        flex: .75,
+        backgroundColor: "blue"
     },
 });
