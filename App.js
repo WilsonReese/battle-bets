@@ -15,6 +15,19 @@ import {
   Saira_800ExtraBold,
   Saira_900Black,
 } from "@expo-google-fonts/saira";
+import { Txt } from "./components/Txt/Txt";
+import { Body } from "./components/Body/Body";
+
+const GAME_DATA = [
+  { id: 1, homeTeam: "Vanderbilt", awayTeam: "Tennessee", homeRecord: "6-0", awayRecord: "6-0", date: "9/14", time: "6:00 PM", ou: "35.5", spread: "Vanderbilt -6.5", moneyLineHome: "Vanderbilt -150", moneyLineAway: "Tennessee +150" },
+  { id: 2, homeTeam: "Vanderbilt", awayTeam: "Tennessee", homeRecord: "6-0", awayRecord: "6-0", date: "9/14", time: "6:00 PM", ou: "35.5", spread: "Vanderbilt -6.5", moneyLineHome: "Vanderbilt -150", moneyLineAway: "Tennessee +150" },
+  { id: 3, homeTeam: "Vanderbilt", awayTeam: "Tennessee", homeRecord: "6-0", awayRecord: "6-0", date: "9/14", time: "6:00 PM", ou: "35.5", spread: "Vanderbilt -6.5", moneyLineHome: "Vanderbilt -150", moneyLineAway: "Tennessee +150" },
+  { id: 4, homeTeam: "Vanderbilt", awayTeam: "Tennessee", homeRecord: "6-0", awayRecord: "6-0", date: "9/14", time: "6:00 PM", ou: "35.5", spread: "Vanderbilt -6.5", moneyLineHome: "Vanderbilt -150", moneyLineAway: "Tennessee +150" },
+  { id: 5, homeTeam: "Vanderbilt", awayTeam: "Tennessee", homeRecord: "6-0", awayRecord: "6-0", date: "9/14", time: "6:00 PM", ou: "35.5", spread: "Vanderbilt -6.5", moneyLineHome: "Vanderbilt -150", moneyLineAway: "Tennessee +150" },
+  { id: 6, homeTeam: "Vanderbilt", awayTeam: "Tennessee", homeRecord: "6-0", awayRecord: "6-0", date: "9/14", time: "6:00 PM", ou: "35.5", spread: "Vanderbilt -6.5", moneyLineHome: "Vanderbilt -150", moneyLineAway: "Tennessee +150" },
+  { id: 7, homeTeam: "Vanderbilt", awayTeam: "Tennessee", homeRecord: "6-0", awayRecord: "6-0", date: "9/14", time: "6:00 PM", ou: "35.5", spread: "Vanderbilt -6.5", moneyLineHome: "Vanderbilt -150", moneyLineAway: "Tennessee +150" },
+  { id: 8, homeTeam: "Vanderbilt", awayTeam: "Tennessee", homeRecord: "6-0", awayRecord: "6-0", date: "9/14", time: "6:00 PM", ou: "35.5", spread: "Vanderbilt -6.5", moneyLineHome: "Vanderbilt -150", moneyLineAway: "Tennessee +150" },
+];
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -31,8 +44,7 @@ export default function App() {
             <Header />
           </View>
           <View style={s.body}>
-            <Text>Options</Text>
-            <Text>Bet Slip</Text>
+            <Body />
           </View>
           <View style={s.footer}>
             <Footer />

@@ -13,7 +13,6 @@ export const s = StyleSheet.create({
     },
     body: {
         flex: 12,
-        backgroundColor: "green"
     },
     footer: {
         flex: .75,
