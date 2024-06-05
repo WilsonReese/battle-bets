@@ -3,12 +3,13 @@ import { StyleSheet } from "react-native";
 export const s = StyleSheet.create({
     app: {
         flex: 1,
-        backgroundColor: "white",
+        backgroundColor: "#061826",
         justifyContent: "space-evenly",
     },
     header: {
         flex: .75,
-        backgroundColor: "red"
+        justifyContent: "space-around",
+        paddingHorizontal: 8,
     },
     body: {
         flex: 12,

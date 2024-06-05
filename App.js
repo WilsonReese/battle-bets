@@ -1,6 +1,7 @@
-import { Text, View } from 'react-native';
+import { Text, View } from "react-native";
 import { s } from "./App.style";
-import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+import { Header } from "./components/Header/Header";
 
 export default function App() {
   return (
@@ -8,22 +9,14 @@ export default function App() {
       <SafeAreaProvider>
         <SafeAreaView style={s.app}>
           <View style={s.header}>
-            <Text>
-              Header
-            </Text>
+            <Header />
           </View>
           <View style={s.body}>
-            <Text>
-              Options
-            </Text>
-            <Text>
-              Bet Slip
-            </Text>
+            <Text>Options</Text>
+            <Text>Bet Slip</Text>
           </View>
           <View style={s.footer}>
-            <Text>
-              Footer
-            </Text>
+            <Text>Footer</Text>
           </View>
         </SafeAreaView>
       </SafeAreaProvider>
