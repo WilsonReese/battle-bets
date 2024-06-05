@@ -3,8 +3,26 @@ import { s } from "./App.style";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { Header } from "./components/Header/Header";
 import { Footer } from "./components/Footer/Footer";
+import {
+  useFonts,
+  Saira_100Thin,
+  Saira_200ExtraLight,
+  Saira_300Light,
+  Saira_400Regular,
+  Saira_500Medium,
+  Saira_600SemiBold,
+  Saira_700Bold,
+  Saira_800ExtraBold,
+  Saira_900Black,
+} from "@expo-google-fonts/saira";
 
 export default function App() {
+  const [fontsLoaded] = useFonts({
+    Saira_400Regular,
+    Saira_700Bold,
+  });
+
+
   return (
     <>
       <SafeAreaProvider>
